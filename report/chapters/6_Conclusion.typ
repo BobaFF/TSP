@@ -1,0 +1,5 @@
+#import "../tools.typ": *
+= Conclusion
+This exercise showed that the TSP is a complex problem that becomes increasingly challenging to solve as its size grows. The CPLEX solver can find the optimal solution for all instances, but it fails to do so within a reasonable amount of time for the largest instances. On the other hand, the Simulated Annealing algorithm can quickly provide high-quality solutions, even for the largest problem sizes. The implemented SA consistently finds solutions within $approx$10% of the optimal value, demonstrating that it is a viable alternative to CPLEX for large-scale TSP instances.
+
+The effectiveness of SA heavily depends on parameter tuning, as the results are highly sensitive to the chosen values. A trade-off must be established between solution quality and computational time: in some cases, prioritizing a faster execution may be more important, while in others, achieving the best possible solution within a reasonable timeframe may be preferred. In general, the parameters can be adjusted following the suggestions provided in the section #fig("Parameters-tuning", "4.2. Parameter tuning").

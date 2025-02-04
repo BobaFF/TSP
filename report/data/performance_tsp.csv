@@ -1,0 +1,5 @@
+10 nodes,0.00074 sec,0.265 sec
+25 nodes,0.00181 sec,0.963 sec
+50 nodes,0.01511 sec,6.857 sec
+75 nodes,0.02768 sec,48.101 sec
+100 nodes,0.03779 sec,141.551 sec
